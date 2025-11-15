@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-s3-for-precomputed-api
+  description: Using AWS S3 buckets to provide precomputed APIs through the 's3' protocol
+  tags:
+    - aws
+    - aws
+  annotations:
+    displayName: Precomputed APIs using AWS S3 buckets
+    github.com/project-slug: the-aeydr/aws-s3-for-precomputed-api
+spec:
+  type: documentation
+  lifecycle: experimental
